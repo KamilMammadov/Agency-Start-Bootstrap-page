@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#first{  
+    width: 100%;
+    height: 724px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-attachment: fixed;
+}
+
+#first .header .left{
+  float: left;
+  width: 22%;
+ padding: 40px;
+
+}
+#first .header .left a{
+    font-size: 30px; 
+    color: #f0c634;
+
+  }
+
+#first .header .right{
+    float: right;
+    width: 78%; 
+    text-align: right;
+    padding: 40px 50px;
+    
+  }
+
+  #first .header .right a{
+    padding-right: 25px;
+    font-size: 30px;
+    color: #fff;
+    transition: .5s;
+  }
+
+  #first .header .right a:hover{
+      color: #f0c634; 
+  }
+
+  #first .bottom{
+    text-align: center;
+     padding: 16rem 0;
+     color: #fff;
+  }
+
+  #first .bottom h3{
+  font-size: 32px;
+}
+
+#first .bottom h1{
+    margin-top: 20px;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+#first .bottom a{
+    background-color: #f0c634;
+    color: white;
+    padding: 20px 20px;
+    transition: 0.5s;
+}
+
+#first .bottom a:hover{
+    background-color: #ac8f27;
+}
+
+
+.Services .head{
+    text-align: center;
+}
+
+.Services .head h1{
+    margin-top: 70px;
+    font-size: 40px;
+}
+.Services .head h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6c7585;
+}
+
+.Services .bottom{
+    padding-bottom: 400px;
+}
+
+.Services .bottom .boxes{
+    width: 33%;
+    float: left;
+    padding: 80px;
+    transition: 0.5s;
+}
+.Services .bottom .boxes:hover{
+    scale: 1.3;
+}
+
+.Services .bottom .boxes h4{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+    
+}
+.Services .bottom .boxes p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6c7585;
+}
+#second{
+    background-color: #f8f9fa;
+    overflow: auto;
+}
+ 
+#second .top{
+    padding-top: 50px;
+    text-align: center; 
+}
+
+#second .top h2{
+    
+    font-size: 40px;
+}
+#second .top h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6c7585;
+}
+#second .bottom 
+{
+    margin-top: 50px;
+   /* text-align: center; */
+}
+#second .bottom .box {
+    width: 26%;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 35px;
+}
+#second .bottom .box .top img{
+   width: 100%;
+   transition: 0.5s;
+  
+}
+#second .bottom .box .top {
+    overflow: hidden;
+}
+#second .bottom .box .top img:hover {
+    filter: opacity(40%);
+    scale: 1.1;
+}
+#second .bottom .box .text{
+   text-align: center;
+   background-color: #fff;
+   font-size: 35px;
+ }
+
+ #second .bottom .box .text .secondtext{
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    color: #6c7585;
+  }
+
+  #third{
+      padding-top: 20px;
+      background-color: #f8f9fa;
+      overflow: auto;
+  }
+
+
+#third .thirdtext{
+    text-align: center;
+}
+
+#third .thirdtext h2{
+    margin-top: 70px;
+    font-size: 40px;
+}
+#third .thirdtext h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6c7585;
+}
+
+#third .bottom{
+    text-align: center;
+    margin-left: 150px;
+}
+
+#third .bottom .box{
+    width: 26%;
+    float: left;
+   margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+#third .bottom .box .img img{
+    width: 70%;
+    clip-path: circle(50% at 50% 50%);
+    transition: 0.5s;
+}
+#third .bottom .box .img img:hover{
+    scale: 1.2;
+}
+
+#third .bottom .box .text{
+    padding-top: 20px;
+    text-align: center;
+}
+#third .bottom .box .text h4{
+    font-size: 25px;
+}
+#third .bottom .box .text p{
+    font-size: 18px;
+    color: #6c7585;
+}
+
+#third .loremtext
+{
+    overflow: auto;
+    width: 52%;
+    padding-top: 60px;
+    text-align: center;
+    margin-left: 280px;
+    padding-bottom: 100px;
+}
+
+#third .loremtext p 
+{
+    font-size: 18px;
+    color: #6c7585;
+}
+
+#fourth{
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ padding: 3rem 6rem;
+
+}
+#fourth .image{
+    float: left;
+    width:20%;
+}
+#fourth .image img{ 
+    width: 60%;
+}
+#fourth .image img:hover{ 
+    cursor: pointer;
+}
+#fifth{
+    overflow: auto;
+  background-color: black;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+
+#fifth .top{
+    text-align: center;
+}
+
+#fifth .top h2{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 40px;
+}
+#fifth .top h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6c7585;
+}
+
+#fifth .bottom{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#fifth .bottom .left{
+    width: 50%;
+    float: left;
+}
+#fifth .bottom .right{
+    width: 50%;
+    float: right;
+}
+
+#fifth .bottom .left input{
+    padding: 20px 10px;
+    padding-right: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#fifth .bottom .right textarea{
+    margin-top: 29px;
+    width: 624px;
+    height: 263px;
+    font-size: 20px;
+    padding: 15px 16px;
+}
+
+#fifth .foot{
+text-align: center;
+padding: 1px 585px;
+}
+
+#fifth .foot .btn button{
+    background-color: #c4a221;
+    color: white;
+    padding: 30px 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    transition: .5s;
+  
+    
+}
+#fifth .foot .btn button:hover{
+    background-color: #eec01c;
+    cursor: pointer;
+  
+}
+
+#footer{
+    padding: 3rem 6rem;
+}
+
+#footer .left{
+    float: left;
+}
+#footer .right{
+    float: right;
+}
+
+#footer .right a{
+    margin-right: 20px;
+    font-size: 19px;
+    color: black;
+}
+
+
